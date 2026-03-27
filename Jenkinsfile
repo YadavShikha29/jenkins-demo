@@ -8,11 +8,7 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/YadavShikha29/jenkins-demo'
-            }
-        }
+       
 
         stage('Build Docker Image') {
             steps {
